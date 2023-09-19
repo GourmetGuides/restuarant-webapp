@@ -1,9 +1,10 @@
+import Dishes from '@/components/Dishes'
 import React from 'react'
 
 const HomePage = () => {
   return (
     <div>
-        <h1>TABLES PAGE</h1>
+        <Dishes/>
     </div>
   )
 }
