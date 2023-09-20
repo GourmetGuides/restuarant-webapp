@@ -1,4 +1,4 @@
-import Dishes from '@/components/Dishes'
+import Dishes from '../../components/Dishes'
 import React from 'react'
 
 const HomePage = () => {
