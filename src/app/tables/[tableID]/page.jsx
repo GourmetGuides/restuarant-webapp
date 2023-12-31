@@ -1,10 +1,12 @@
+"use client"
 import React from "react";
+import Login from "../../../components/Login";
 
 const TableID = ({params}) => {
+  const tableID = params.tableID;
   return (
     <div>
-      <h1>TableID</h1>
-      <h2>{params.tableID}</h2>
+      <Login tableID={tableID} />
     </div>
   );
 };
