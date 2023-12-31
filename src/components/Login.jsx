@@ -11,7 +11,7 @@ const Login = ({tableID}) => {
     if (sessionStorage.getItem('isLoggedIn')) {
       router.push(`/`);
     }
-  }, []);
+  }, [router]);
   const handlePhoneNumberChange = (e) => {
     setPhoneNumber(e.target.value); // Update phone number state on change
   };
