@@ -42,7 +42,7 @@ const Login = ({tableID}) => {
       <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
         <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
           <h1 class="title-font font-medium items-center text-3xl text-white">Table {tableID}</h1>
-          <p class="leading-relaxed mt-4">Welcome! Log in to your table to start savoring our delightful menu. Your culinary journey awaits. Let's begin by ordering your favorite dishes!</p>
+          <p class="leading-relaxed mt-4">Welcome! Log in to your table to start savoring our delightful menu. Your culinary journey awaits. Lets begin by ordering your favorite dishes!</p>
         </div>
         <div className="lg:w-2/6 md:w-1/2 bg-gray-800 bg-opacity-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
           <h2 className="text-white text-lg font-medium title-font mb-5">Login</h2>
